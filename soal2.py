@@ -9,8 +9,8 @@ data = pd.DataFrame([
 index=['Mahasiswa 1','Mahasiswa 2','Mahasiswa 3'],
 columns =['Algoritma dan Struktur Data 2','Matematika Numerik'])
 
-nilai_mk = data.sum(axis=0) 
-nilai_mhs = data.sum(axis=1) 
+nilai_mk = data.mean(axis=0) 
+nilai_mhs = data.mean(axis=1) 
 
 print(data)
 print('='*100)
